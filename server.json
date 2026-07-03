@@ -1,29 +1,20 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.patrizzos/stylesafe",
-  "description": "MCP server and CLI that catches CSS cascade conflicts and Tailwind utility clashes before they ship. Built for AI coding agents and CI workflows.",
+  "name": "io.github.Patrizzos/stylesafe",
+  "description": "MCP server and CLI that catches CSS cascade conflicts and Tailwind utility clashes before they ship.",
   "repository": {
     "url": "https://github.com/patrizzos/stylesafe",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "stylesafe",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
-      },
-      "environmentVariables": [
-        {
-          "description": "Your API key for the service",
-          "isRequired": true,
-          "format": "string",
-          "isSecret": true,
-          "name": "YOUR_API_KEY"
-        }
-      ]
+      }
     }
   ]
 }
