@@ -1,4 +1,4 @@
-# stylesafe
+# StyleSafe - MCP and CLI
 
 An MCP server and CLI that catches CSS cascade conflicts and Tailwind utility clashes before they ship — built for AI coding agents and CI workflows.
 
